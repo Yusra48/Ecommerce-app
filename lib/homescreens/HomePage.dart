@@ -24,12 +24,12 @@ class _HomePageState extends State<HomePage> {
           MaterialPageRoute(builder: (context) => HomeScreen()),
         );
         break;
-      // case 1:
-      //   Navigator.push(
-      //     context,
-      //     MaterialPageRoute(builder: (context) => ),
-      //   );
-      //   break;
+      case 1:
+        Navigator.push(
+          context,
+          MaterialPageRoute(builder: (context) => CartView(),
+        );
+        break;
       case 2:
         Navigator.push(
           context,
